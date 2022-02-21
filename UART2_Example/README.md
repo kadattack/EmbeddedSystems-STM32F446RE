@@ -14,7 +14,7 @@ HAL_MspInit() // App specific. Low level processor specific inits.
 Set priority interrupts, for memorymanagement busfault and usagefault
 
 
-HAL_UART_MspInit 	 //here we are going to do the low level inits. of the USART2 peripheral
+HAL_UART_MspInit() 	 //here we are going to do the low level inits. of the USART2 peripheral
 
 
 UART2_Init()
